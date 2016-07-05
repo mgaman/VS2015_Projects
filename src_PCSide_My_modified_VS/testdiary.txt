@@ -1,0 +1,34 @@
+UART_tst endless loop
+ROM_SysCtlClockSet called twice
+System_Init undefined interrupt
+
+Serial_Configs_t add DMA channel map for uDMAChannelAssign(uint32_t ui32Mapping)
+
+good thing made a more general uart and dma initializer
+fix warnings about unreachable code
+no pchandler task
+cdc tx sends messages when enabled via semaphores - different to my pchandler which sends messages from the queue. this enforces orderly output
+ 
+why enclose single rtos call in another fn?
+
+no messages or communication yet
+
+arm compiler/advanced options/runtime model options -- set small_enums
+alexies declarations use uint8_t instead of enum, works but not elegant. debugger will just see as 
+as number and not decode
+
+SW_ROOT to be reset to ti\tivaware
+
+debug\autorun/   check run to main
+
+ping worked. no eeprom yet
+
+hooked epson tp PE0/PE1. start/stop RT data worked OK
+when saving CSV file, use settings to fix directory path, never use same as executable
+
+GPS config, Alexy sent me configuration file but errors in reading set to read nav_pvt nav_dop at 10hz, 38400 bps
+add NAVX5 check use autonomous
+PM2 check RTC and EPH
+ 
+ OBOX.h correct UBLOX_M8_UART_DMA_RX_CHANNEL from UDMA_CH6_UART5RX to UDMA_CH8_UART1RX
+ communication handler line 371 add O2H_Send_Msg

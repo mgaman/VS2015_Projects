@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASIO2", "ASIO2\ASIO2.csproj", "{99A1A862-DF11-47CD-833D-38601522118F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HDLC", "..\..\..\Visual Studio 2012\Projects\HDLC\HDLC\HDLC.csproj", "{ADB9CDB7-43F7-408A-871F-FE9B383286A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASIO2Messages", "ASIO2Messages\ASIO2Messages.csproj", "{AC0FB68F-A3E8-4F64-B451-C9F03D852EBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99A1A862-DF11-47CD-833D-38601522118F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A1A862-DF11-47CD-833D-38601522118F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A1A862-DF11-47CD-833D-38601522118F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A1A862-DF11-47CD-833D-38601522118F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB9CDB7-43F7-408A-871F-FE9B383286A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB9CDB7-43F7-408A-871F-FE9B383286A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB9CDB7-43F7-408A-871F-FE9B383286A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB9CDB7-43F7-408A-871F-FE9B383286A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC0FB68F-A3E8-4F64-B451-C9F03D852EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC0FB68F-A3E8-4F64-B451-C9F03D852EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC0FB68F-A3E8-4F64-B451-C9F03D852EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC0FB68F-A3E8-4F64-B451-C9F03D852EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
